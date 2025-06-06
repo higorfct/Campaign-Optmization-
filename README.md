@@ -58,7 +58,7 @@ O projeto foi desenvolvido utilizando as seguintes ferramentas:
 ## ✅ Resultados
 
 - Forte correlação entre investimentos em marketing e vendas como evidenciado pelos gráficos.
-- O modelo sugere que o canal **Google** é o mais rentável de todos, com um ROI de 1.60.
+- O modelo sugere que o canal **Google** é o mais rentável de todos, com um ROI de 1.60. Isto é, a cada R$ 1,00 investido, o retorno é de R$ 1,60, um lucro de 60% sobre o valor do investimento feito.
 - Modelo altamente capaz de prever vendas com base em alocação de orçamento por canal.
 - Auxílio direto na decisão de onde investir para maior ROI.
 
