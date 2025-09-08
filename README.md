@@ -1,33 +1,33 @@
-# Projeto 1: Otimização de Campanhas de Marketing com Machine Learning
+# Project 1: Marketing Campaign Optimization with Machine Learning
 
-## 📝 Introdução
-Este projeto busca aplicar técnicas de Machine Learning para otimizar campanhas de marketing com base no **Retorno Sobre Investimento (ROI)**. O objetivo é construir um modelo preditivo que auxilie empresas a **tomar decisões mais estratégicas** sobre a alocação de seus orçamentos de marketing, identificando os canais mais rentáveis para maximizar resultados.  
-A solução foi desenvolvida com foco em interpretabilidade, reprodutibilidade e potencial de aplicação prática em ambientes de negócio.
+## 📝 Introduction
+This project aims to apply Machine Learning techniques to optimize marketing campaigns based on **Return on Investment (ROI)**. The goal is to build a predictive model that helps companies **make more strategic decisions** regarding the allocation of their marketing budgets, identifying the most profitable channels to maximize results.  
+The solution was developed with a focus on interpretability, reproducibility, and practical applicability in business environments.
 
-## 📊 Dados
+## 📊 Data
 
-Os dados utilizados foram extraídos de um arquivo campaigns.CSV, contendo:
+The data used was extracted from a file named campaigns.CSV, containing:
 
 - campaing_id
-- budget (orçamento de cada campanha)
-- channel (canais através dos quais a campanha ocorre)
+- budget (budget for each campaign)
+- channel (channels through which the campaign runs)
 - engagement
-- ROI (retorno sobre investimento)
+- ROI (return on investment)
 
-Eatapas percorridas:
+Steps performed:
 
-- Limpeza e tratamento dos dados
-- Análise exploratória com scatterplots
-- Pré-processamento para modelagem
-- Modelagem
+- Data cleaning and preprocessing
+- Exploratory analysis with scatterplots
+- Preprocessing for modeling
+- Modeling
 
 ---
 
-## 🤖 Modelagem
+## 🤖 Modeling
 
-A modelagem foi feita com o algoritmo de **Regressão Linear**, tendo como **"budget"**, **"channel"** e **"engagement"** como variáveis preditoras e **"ROI"** como variável alvo
+Modeling was performed using the **Linear Regression** algorithm, with **"budget"**, **"channel"**, and **"engagement"** as predictor variables and **"ROI"** as the target variable.
 
-📌 **Avaliação do modelo:**  
+📌 **Model Evaluation:**  
 - **MSE**  
   0.008880675056313457
 
@@ -37,59 +37,57 @@ A modelagem foi feita com o algoritmo de **Regressão Linear**, tendo como **"bu
 - **MAE**  
   0.059717449408166846
 
-
-Como se pode ver, todas as métricas de avaliação do modelo de **Regressão Linear** mostram que o modelo teve um ótimo desempenho.
-
----
-
-## 🛠️ Ferramentas utilizadas
-
-O projeto foi desenvolvido utilizando as seguintes ferramentas:
-
-- **Python** – Linguagem principal do projeto
-- **Pandas** – Manipulação e análise de dados
-- **NumPy** – Operações numéricas e vetoriais
-- **Scikit-Learn** – Modelagem preditiva e avaliação com métricas
-- **Matplotlib** – Visualizações de dados
-- **Google Colab** – Desenvolvimento e prototipagem inicial
+As can be seen, all evaluation metrics for the **Linear Regression** model show that the model performed very well.
 
 ---
 
-## ✅ Resultados
+## 🛠️ Tools Used
 
-- Forte correlação entre investimentos em marketing e vendas como evidenciado pelos gráficos.
-- O modelo sugere que o canal **Google** é o mais rentável de todos, com um ROI de 1.60. Isto é, a cada R$ 1,00 investido, o retorno é de R$ 1,60, um lucro de 60% sobre o valor do investimento feito.
-- Modelo altamente capaz de prever vendas com base em alocação de orçamento por canal.
-- Auxílio direto na decisão de onde investir para maior ROI.
+The project was developed using the following tools:
 
----
-
-## 🧠 Conclusões
-
-O projeto demonstra como Machine Learning pode:
-
-- **Otimizar o ROI** de campanhas publicitárias
-- Apoiar **decisões estratégicas** sobre alocação de verba
-- Identificar **canais mais eficazes** de marketing
+- **Python** – Main language of the project
+- **Pandas** – Data manipulation and analysis
+- **NumPy** – Numerical and vector operations
+- **Scikit-Learn** – Predictive modeling and metric evaluation
+- **Matplotlib** – Data visualizations
+- **Google Colab** – Initial development and prototyping
 
 ---
 
-## 🔄 Próximos Passos
+## ✅ Results
 
-- Coletar mais dados para refinar a acurácia
-- Testar novos algoritmos e abordagens
-- Criar interface gráfica (ex: com Streamlit)
-- Implementar em ambiente de produção (ex: API ou dashboard)
+- Strong correlation between marketing investments and sales as evidenced by the graphs.
+- The model suggests that the **Google** channel is the most profitable of all, with an ROI of 1.60. That is, for every R$ 1.00 invested, the return is R$ 1.60, a 60% profit over the investment made.
+- Highly capable model for predicting sales based on budget allocation per channel.
+- Direct assistance in deciding where to invest for the highest ROI.
 
 ---
 
-🧑‍💻 **Autor e Contato**
+## 🧠 Conclusions
+
+The project demonstrates how Machine Learning can:
+
+- **Optimize the ROI** of advertising campaigns
+- Support **strategic decisions** on budget allocation
+- Identify the **most effective** marketing channels
+
+---
+
+## 🔄 Next Steps
+
+- Collect more data to refine accuracy
+- Test new algorithms and approaches
+- Create a graphical interface (e.g., with Streamlit)
+- Implement in a production environment (e.g., API or dashboard)
+
+---
+
+🧑‍💻 **Author and Contact**
 
 Higor Roberto Coutinho Caetano
 
 **Linkedin**: https://www.linkedin.com/in/higor-caetano-049521136/
 
 **e-mail**: higorfct@gmail.com
-
 
 
