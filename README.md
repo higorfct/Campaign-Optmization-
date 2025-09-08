@@ -1,4 +1,4 @@
-# Project 1: Marketing Campaign Optimization with Machine Learning
+# Marketing Campaign Optimization with Machine Learning
 
 ## 📝 Introduction
 This project aims to apply Machine Learning techniques to optimize marketing campaigns based on **Return on Investment (ROI)**. The goal is to build a predictive model that helps companies **make more strategic decisions** regarding the allocation of their marketing budgets, identifying the most profitable channels to maximize results.  
