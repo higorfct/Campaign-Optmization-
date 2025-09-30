@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (opcional: se não quiser enviar datasets grandes)
+*.csv
+*.xlsx
+*.xls
+*.json
+
+# Plots / figures (opcional: se gerar gráficos ou imagens)
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
