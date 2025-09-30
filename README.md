@@ -12,7 +12,7 @@ The solution was developed with a focus on interpretability, reproducibility, an
  
     ```bash
     git clone https://github.com/higorfct/Campaign-Optmization-
-    cd Churn=Analysis
+    cd Campaing-Optimization-
     pip install -r requirements.txt
     ```
 
