@@ -4,6 +4,18 @@
 This project aims to apply Machine Learning techniques to optimize marketing campaigns based on **Return on Investment (ROI)**. The goal is to build a predictive model that helps companies **make more strategic decisions** regarding the allocation of their marketing budgets, identifying the most profitable channels to maximize results.  
 The solution was developed with a focus on interpretability, reproducibility, and practical applicability in business environments.
 
+----
+
+## 🚀 How to use
+
+ 1. **Clone the repository and install dependencies:**
+ 
+    ```bash
+    git clone https://github.com/higorfct/Campaign-Optmization-
+    cd Churn=Analysis
+    pip install -r requirements.txt
+    ```
+
 ## 📊 Data
 
 The data used was extracted from a file named campaigns.CSV, containing:
